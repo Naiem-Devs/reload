@@ -1,0 +1,846 @@
+/* Big screen :1200px. */
+
+@media (min-width: 1500px) and (max-width: 30000px) {
+    .challenge-area img.trophy {
+        display: block;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1800px) {
+    .pkg-row .img_position img {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .section_title h1 {
+        font-size: 50px;
+        line-height: 56px;
+    }
+    .rewards_img img.stack_img {
+        max-width: 470px;
+    }
+    .rewards_img img.fire_img {
+        position: absolute;
+        bottom: -45px;
+        left: -175px;
+        max-width: 220px;
+    }
+    .rewards_bottom {
+        padding-top: 240px;
+    }
+    .bonus_blk>img {
+        height: 95px;
+        top: -25px;
+    }
+    .bonus_blk .bonus_top h2 {
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .bonus-blks>img {
+        right: -30px;
+        top: 0px;
+        max-width: 100px;
+    }
+    /*====== Page 3 Start========= */
+    .Giveaway_top .give_blk {
+        max-width: 900px;
+    }
+    img.gift-right {
+        right: 0;
+    }
+    img.gift-left {
+        left: 0;
+    }
+    /*====== Page 3 End========= */
+    /*====== sports Page Start========= */
+    .pkg-row .img_position img {
+        display: none;
+    }
+    /*======sports Page End========= */
+}
+
+
+/* Normal screen :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .section_title h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .rewards_img img.stack_img {
+        max-width: 340px;
+    }
+    .rewards_img img.fire_img {
+        position: absolute;
+        bottom: -45px;
+        left: -150px;
+        max-width: 180px;
+    }
+    .rewards_bottom {
+        padding-top: 150px;
+    }
+    .bonus_blk>img {
+        height: 95px;
+        top: -25px;
+    }
+    .bonus_blk .bonus_top h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .bonus-blks>img {
+        right: -15px;
+        top: 0px;
+        max-width: 100px;
+    }
+    .rewards_content img {
+        max-width: 50px;
+    }
+    .bonus_blk {
+        padding: 20px;
+    }
+    ul.bonus_bottom li {
+        font-size: 14px;
+    }
+    .step {
+        width: 420px;
+    }
+    /*====== Page 3 Start========= */
+    .Giveaway_top .give_blk {
+        max-width: 626px;
+    }
+    .Giveaway_top .give_blk i {
+        height: 410px;
+    }
+    img.gift-right {}
+    img.gift-left {
+        left: 4%;
+    }
+    .give_blk i {
+        height: 275px;
+    }
+    .price_row {
+        flex-direction: column-reverse;
+    }
+    .price_right {
+        text-align: center;
+        margin-top: 30px;
+    }
+    /*====== Page 3 End and Challenge page started ========= */
+    .winnerBlk button {
+        font-size: 18px;
+        letter-spacing: 0.16em;
+        padding: 10px 18px;
+    }
+    .winnerBlk p {
+        letter-spacing: 0.16em;
+    }
+    .winnerBlk img.fimg {
+        width: 25px;
+        margin-right: 10px;
+    }
+    /*====== sports Page Start========= */
+    body.sports .menu-area nav ul li a.theme-btn {
+        font-size: 12px;
+        padding: 0 22px;
+        height: 48px;
+        margin-right: 5px;
+    }
+    body.sports .menu-area nav ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .img_position img {
+        display: none;
+    }
+    .sports_wrp .winnerBlk {
+        width: 91%;
+        margin-left: -60px;
+    }
+    .sports_wrp .winnerBlk p {
+        font-size: 13px;
+    }
+    .sports_wrp .winnerBlk button {
+        font-size: 16px;
+        padding: 12px 27px;
+    }
+    .bg_border {
+        padding: 30px 0;
+    }
+    /*======sports Page End========= */
+}
+
+
+/* Tablet screen :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section_title h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .rewards_img img.stack_img {
+        max-width: 340px;
+    }
+    .rewards_img img.fire_img {
+        position: absolute;
+        bottom: -45px;
+        left: -150px;
+        max-width: 180px;
+    }
+    .rewards_bottom {
+        padding-top: 20px;
+    }
+    .bonus_blk>img {
+        height: 95px;
+        top: -50px;
+    }
+    .bonus_blk .bonus_top h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .bonus-blks>img {
+        right: -15px;
+        top: 0px;
+        max-width: 100px;
+    }
+    .rewards_content img {
+        max-width: 50px;
+    }
+    .bonus_blk {
+        padding: 20px;
+        height: auto;
+    }
+    ul.bonus_bottom li {
+        font-size: 14px;
+    }
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    .footer-down {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-down img {
+        margin-top: 30px;
+    }
+    .banner_blk img {
+        border-radius: 20px;
+    }
+    .rewards_wrp {
+        display: block;
+        text-align: center;
+        max-width: 400px;
+        margin: auto;
+    }
+    .rewards_wrp a.theme-btn {
+        margin: auto;
+        margin-top: 45px;
+        width: max-content;
+    }
+    .rewards_content {
+        text-align: center;
+    }
+    .rewards_content img {
+        width: max-content;
+        margin-left: none;
+        margin-top: none;
+        margin: auto;
+    }
+    .rewards_bottom img.background {
+        display: none;
+    }
+    .stack-area {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    footer>img {
+        top: -25px;
+        max-width: 70px;
+    }
+    .theme-btn {
+        padding: 0 35px;
+        height: 45px;
+    }
+    .step {
+        width: 460px;
+        text-align: left;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .all_steps:after {
+        display: none;
+    }
+    .step_headings img {
+        left: 200px;
+    }
+    .step.rightMode.onlyImg {
+        margin-top: 38px;
+        text-align: center;
+    }
+    .all_steps {
+        padding: 50px 0 30px 0;
+    }
+    /*====== Page 3 Start========= */
+    .Giveaway_top .give_blk {
+        max-width: 460px;
+    }
+    .Giveaway_top .give_blk i {
+        height: 290px;
+    }
+    img.gift-right {
+        right: 0;
+    }
+    img.gift-left {
+        left: 0;
+    }
+    .give_blk i {
+        height: 230px;
+    }
+    .price_row {
+        flex-direction: column-reverse;
+    }
+    .price_right {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .price_blk h1 {
+        font-size: 30px;
+        width: 200px;
+    }
+    .price_blk h1 span {
+        font-size: 16px;
+    }
+    .price_blk h5 {
+        font-size: 16px;
+    }
+    .price_blk a {
+        padding: 10px 30px;
+    }
+    .price_blk {
+        margin: 30px 0;
+    }
+    .gift_img img {
+        max-width: 60px;
+    }
+    /*====== Page 3 End and Challenge Page started ========= */
+    .winnerBlk {
+        display: block;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+    }
+    .winnerBlk a.theme-btn {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .winnerBlk button {
+        margin-top: 10px;
+    }
+    .winnerBlk img.fimg {
+        margin-bottom: 15px;
+    }
+    .winnerBlk p {
+        margin-bottom: 5px;
+    }
+    /*====== sports Page Start========= */
+    body.sports .menu-area nav ul li a.theme-btn {
+        font-size: 12px;
+        padding: 0 22px;
+        height: 48px;
+        margin-right: 5px;
+    }
+    body.sports .menu-area nav ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .img_position img {
+        display: none;
+    }
+    .sports_wrp .winnerBlk {
+        width: 95%;
+        margin-left: -15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .sports_wrp a.theme-btn.withArrow div {
+        padding: 0 15px;
+    }
+    .sports_wrp .winnerBlk p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .sports_wrp .winnerBlk p.first {
+        width: 138px;
+        text-align: left;
+        margin-left: -4px;
+    }
+    .sports_wrp .winnerBlk button {
+        font-size: 15px;
+        padding: 7px 25px;
+        margin-top: 0;
+    }
+    .bg_border {
+        padding: 30px 0;
+    }
+    .sports_wrp .winnerBlk a.theme-btn {
+        width: max-content;
+        font-size: 13px;
+        margin: 0;
+        margin-right: -18px;
+    }
+    /*======sports Page End========= */
+}
+
+
+/* small screen :320px. */
+
+@media (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+    .section_title p {
+        font-size: 15px;
+        color: #7175AA;
+        margin: 0;
+    }
+    .section_title h1 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .rewards_img img.stack_img {
+        max-width: 180px;
+    }
+    .rewards_img img.fire_img {
+        position: absolute;
+        bottom: -27px;
+        left: -24px;
+        max-width: 80px;
+    }
+    .rewards_bottom {
+        padding-top: 20px;
+    }
+    .bonus_blk>img {
+        height: 60px;
+        top: -45px;
+    }
+    .bonus_blk .bonus_top {
+        margin-top: -25px;
+    }
+    .bonus_blk .bonus_top h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .bonus-blks>img {
+        right: -5px;
+        top: 15px;
+        max-width: 80px;
+    }
+    .rewards_content img {
+        max-width: 50px;
+    }
+    .bonus_blk {
+        padding: 20px;
+        height: auto;
+    }
+    ul.bonus_bottom li {
+        font-size: 14px;
+    }
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+    .footer-logo a {
+        display: block;
+        padding: 10px 14px;
+        margin-top: 10px;
+    }
+    .footer-down {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-down img {
+        margin-top: 30px;
+    }
+    .banner_blk img {
+        border-radius: 20px;
+    }
+    .rewards_wrp {
+        display: block;
+        text-align: center;
+        max-width: 400px;
+        margin: auto;
+    }
+    .rewards_wrp a.theme-btn {
+        margin: auto;
+        margin-top: 45px;
+        width: max-content;
+    }
+    .rewards_content {
+        text-align: center;
+    }
+    .rewards_content img {
+        width: max-content;
+        margin-left: none;
+        margin-top: none;
+        margin: auto;
+    }
+    .rewards_bottom img.background {
+        display: none;
+    }
+    .stack-area {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    footer>img {
+        top: -25px;
+        max-width: 70px;
+    }
+    .theme-btn {
+        padding: 0 35px;
+        height: 45px;
+    }
+    .rewards_top {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .rewards_top .section_title {
+        margin-bottom: 10px;
+    }
+    .banner_blk {
+        margin-top: 15px;
+    }
+    .banner_blk a.theme-btn {
+        padding: 0px 15px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .rewards_content h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .section_title h3 {
+        font-size: 24px;
+    }
+    .banner_blk.btnInMdl img {
+        border-radius: 10px;
+        display: block;
+        object-fit: cover;
+    }
+    .banner_blk.btnInMdl a {
+        position: unset;
+        transform: translate(0) !important;
+        margin-top: 8px;
+    }
+    .step {
+        width: 100%;
+        max-width: 400px;
+        text-align: left;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .all_steps:after {
+        display: none;
+    }
+    .step_headings img {
+        left: 150px;
+    }
+    .step.rightMode.onlyImg {
+        margin-top: 38px;
+        text-align: center;
+    }
+    .all_steps {
+        padding: 50px 0 30px 0;
+    }
+    .step_headings h3 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .step.rightMode .step_headings img {
+        left: 190px;
+        bottom: 40px;
+    }
+    .howto-area {
+        padding: 130px 0 60px 0;
+    }
+    .howto-area img.ludoRock {
+        top: 17%;
+        left: 5%;
+        max-width: 60px;
+    }
+    .howto-area img.cardRight {
+        top: 13%;
+        max-width: 70px;
+    }
+    /*====== Page 3 Start========= */
+    .Giveaway_top .give_blk {
+        max-width: 460px;
+    }
+    .Giveaway_top .give_blk a {
+        padding: 10px 55px;
+        font-size: 18px;
+        bottom: 10px;
+    }
+    .Giveaway_top .give_blk i {
+        height: 100%;
+        min-height: 230px;
+    }
+    .Giveaway_top .give_blk i img {
+        display: block;
+        min-height: 230px;
+    }
+    .gift_img img {
+        right: 0;
+        display: none;
+    }
+    img.gift-left {
+        left: 0;
+    }
+    .give_blk i {
+        height: 230px;
+    }
+    .give_blk {
+        max-width: 322px;
+        margin: auto;
+    }
+    .give_blk i {
+        height: 200px;
+    }
+    .price_row {
+        flex-direction: column-reverse;
+    }
+    .price_right {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .price_blk h1 {
+        font-size: 30px;
+        width: 200px;
+    }
+    .price_blk h1 span {
+        font-size: 16px;
+    }
+    .price_blk h5 {
+        font-size: 16px;
+    }
+    .price_blk a {
+        padding: 8px 40px;
+    }
+    .price_blk {
+        margin: 20px 0 15px;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .price_blk i {
+        margin-bottom: 10px;
+    }
+    .price_blk h1 {
+        margin: 20px 0;
+    }
+    .price_blk h5 {
+        margin-bottom: 20px;
+    }
+    .price_blk:before {
+        height: 100%;
+        width: 100%;
+        max-width: 275px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .Giveaway_top {
+        margin-bottom: 40px;
+    }
+    section.Giveaway-area {
+        padding: 50px 0;
+        padding-top: 100px;
+    }
+    .give_blk a {
+        font-size: 16px;
+        padding: 8px 40px;
+    }
+    .owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+    .owl-dots {
+        margin-top: 30px;
+    }
+    /*====== Page 3 End and Challenge Page started ========= */
+    .winnerBlk {
+        display: block;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+    }
+    .winnerBlk a.theme-btn {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .winnerBlk button {
+        margin-top: 10px;
+        font-size: 24px;
+        letter-spacing: 0.16em;
+        padding: 7px 20px;
+    }
+    .winnerBlk img.fimg {
+        margin-bottom: 15px;
+    }
+    .winnerBlk p {
+        margin-bottom: 5px;
+    }
+    .section_title h3>img {
+        margin: 0;
+        width: 40px;
+        margin-left: 10px;
+    }
+    .monthly-wins {
+        padding: 50px 0 80px 0;
+    }
+    .challenges_wrp .owl-dots {
+        margin-top: 0;
+    }
+    .challenge-area {
+        padding: 130px 0 50px 0;
+    }
+    .card_prices {
+        padding: 15px;
+        width: 80%;
+        padding-bottom: 25px;
+    }
+    .card_prices p i {
+        font-size: 24px;
+        margin-right: 7px;
+        width: 30px;
+    }
+    .card_prices p i.fas.fa-dollar-sign {
+        font-size: 30px;
+    }
+    .winnerBlk {
+        display: block;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+    }
+    .winnerBlk a.theme-btn {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .winnerBlk button {
+        margin-top: 10px;
+    }
+    .winnerBlk img.fimg {
+        margin-bottom: 15px;
+    }
+    .winnerBlk p {
+        margin-bottom: 5px;
+    }
+    /*====== sports Page Start========= */
+    body.sports .menu-area nav ul li a.theme-btn {
+        font-size: 12px;
+        padding: 0 22px;
+        height: 48px;
+        margin-right: 5px;
+    }
+    body.sports .menu-area nav ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .img_position img {
+        display: none;
+    }
+    .sports_wrp .winnerBlk {
+        margin: auto;
+        max-width: 90%;
+        padding: 0;
+        padding-top: 59px;
+    }
+    .sports_wrp .winnerBlk img.fimg {
+        position: unset;
+        text-align: center;
+    }
+    .sports_wrp .winnerBlk i {
+        text-align: center;
+        width: max-content;
+        margin: auto;
+    }
+    .sports_wrp a.theme-btn.withArrow div {}
+    .sports_wrp .winnerBlk p {}
+    .sports_wrp .winnerBlk p.first {
+        margin: auto;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    .sports_wrp .winnerBlk button {}
+    .bg_border {
+        padding: 30px 0;
+    }
+    .sports_btn {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sports_btn a {
+        margin: auto;
+        font-size: 14px;
+        margin-bottom: 26px;
+        width: 229px;
+    }
+
+a.slot_btn {transform: translateX(-18px);}
+    a.football_btn {
+        transform: translateX(23px);
+    }
+    .packge_blk_cont {
+        margin-bottom: 20px;
+    }
+    .packge_blk>i {
+        transform: scale(.7);
+        min-height: 100px;
+    }
+    .packge_blk {}
+    .sports_wrp a.theme-btn.withArrow.aos-init.aos-animate {
+        max-width: 167px;
+        margin: 15px auto;
+    }
+    .pkg_slider .owl-item.active.center {
+        transform: translateY(0px);
+    }
+    .pkg_slider.owl-carousel.owl-loaded.owl-drag .owl-stage-outer {
+        padding: 0;
+    }
+    .pkg-row {
+        margin: 50px 0 40px;
+    }
+    .sports_btn a span img {
+        right: -28px;
+    }
+    /*======sports Page End========= */
+}
+
+
+/* Large Mobile screen :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+}

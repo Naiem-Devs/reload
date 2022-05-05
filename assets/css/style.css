@@ -1,0 +1,1698 @@
+/*   Theme default css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: #20255B;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: inherit;
+    outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 70px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.padding {
+    padding-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.theme-btn {
+    font-weight: 700;
+    background: rgba(97, 106, 212, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35px;
+    height: 59px;
+    position: relative;
+    border-radius: 50px;
+    z-index: 2;
+    overflow: hidden;
+    transition: .3s;
+}
+
+
+/* default-css END 
+================================== */
+
+.header-area {
+    padding: 20px 0;
+    width: 100%;
+    /* background-color: #0C0F35; */
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.menu-area nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-area nav ul li a {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 60px;
+    position: relative;
+}
+
+.menu-area nav ul li a.theme-btn {
+    margin-right: 10px;
+    display: flex;
+}
+
+.menu-area {
+    text-align: right;
+}
+
+a.theme-btn img {
+    margin-right: 10px;
+}
+
+.menu-area nav ul li a.theme-btn:hover {
+    background: #616AD4;
+    color: #fff;
+}
+
+
+/* humbergar */
+
+.bar a {
+    width: 35px;
+    height: 35px;
+    float: right;
+    position: relative;
+}
+
+.bar a span {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    display: block;
+    position: relative;
+    top: 17px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.bar a span:before {
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    bottom: 10px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.bar a span:after {
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    bottom: -10px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+
+/* humbarger END */
+
+
+/* mobile-menu START */
+
+.mobile-menu {
+    position: fixed;
+    width: 320px;
+    height: 100vh;
+    background: #0c0e34;
+    z-index: 99;
+    box-shadow: 0px 0px 9px -1px #737373;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    margin-left: -400px;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.siteBar {
+    margin-left: 0;
+}
+
+.mobile-menu nav ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+a.mbl_logo {
+    display: block;
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+.mobile-menu nav ul li a {
+    transition: .3s;
+}
+
+.mobile-menu a.theme-btn {
+    margin-top: 10px;
+}
+
+.mobile-menu a.bars {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #fff;
+    box-shadow: 0px 0px 17px -2px #0000004a;
+}
+
+
+/* Header section END and Rewards Section STARTED */
+
+.rewards_top {
+    background: url(../img/Background.png);
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.rewards_content p {
+    color: #7175AA;
+}
+
+.section_title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section_title h1 {
+    margin-bottom: 20px;
+}
+
+.section_title p {
+    font-size: 18px;
+    color: #7175AA;
+    margin: 0;
+}
+
+.section_title h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+}
+
+.rewards_top .section_title {
+    margin-bottom: 30px;
+}
+
+.section_title img {
+    margin-bottom: 20px;
+}
+
+.banner_blk {
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    transition: .3s;
+}
+
+.banner_blk img {
+    transition: .3s;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.banner_blk:hover img {
+    filter: blur(2px);
+}
+
+.banner_blk a.theme-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-weight: 4;
+}
+
+.banner_blk.btnInMdl a.theme-btn {
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.banner_blk a.theme-btn i {
+    font-size: 28px;
+    margin-left: 15px;
+    font-weight: 100;
+    opacity: .7;
+    transition: .3s;
+}
+
+.banner_blk a.theme-btn:hover i {
+    margin-left: 25px;
+}
+
+.theme-btn b {
+    margin-right: 5px;
+}
+
+a.theme-btn.pirpleBtn {
+    background: #8408CB;
+    box-shadow: 0 4px 4px 0 #0000;
+}
+
+a.theme-btn.blackBtn {
+    background: #2C2019;
+    box-shadow: 0 4px 4px 0 #0000;
+    color: #FFF47B;
+}
+
+.banner_blk a.theme-btn b {
+    color: #fff;
+}
+
+a.theme-btn.redBtn {
+    background: #A14727;
+}
+
+.rewards_bottom {
+    position: relative;
+    display: block;
+    padding-top: 370px;
+    padding-bottom: 40px;
+    background-color: #0C0F35;
+    z-index: 2;
+    width: 100%;
+}
+
+.rewards_bottom img.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .5;
+    transition: .3s;
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+
+.rewards_bottom.active img.background {
+    opacity: 1;
+}
+
+.howto-area a.theme-btn {
+    background: #2dde32de;
+    transition: .3s !important;
+}
+
+.howto-area a.theme-btn:hover {
+    background: #2dde32;
+    box-shadow: 5px 5px 15px -2px #2dde32;
+}
+
+.rewards_wrp {
+    display: flex;
+    align-items: center;
+}
+
+.rewards_content {
+    text-align: right;
+}
+
+.rewards_img {
+    position: relative;
+    margin: 0 20px;
+}
+
+.rewards_img img.fire_img {
+    position: absolute;
+    bottom: -40px;
+    left: -280px;
+}
+
+a.theme-btn.withArrow {
+    z-index: 2;
+    min-width: max-content;
+    padding: 0;
+    transition: .3s !important;
+}
+
+a.theme-btn.withArrow span {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 28px;
+    height: 100%;
+    justify-content: center;
+}
+
+a.theme-btn.withArrow div {
+    background: rgb(97 106 212 / 75%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+a.theme-btn.withArrow:hover {
+    background: #525cc5;
+}
+
+.rewards_content img {
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+    animation: shaking 1s infinite;
+    position: relative;
+}
+
+@keyframes shaking {
+    0% {
+        transform: scale(.8) rotate(0deg);
+    }
+    35% {
+        transform: scale(.9) rotate(5deg);
+    }
+    70% {
+        transform: scale(1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(.8) rotate(0deg);
+    }
+}
+
+
+/* Rewards section END and Stack Section STARTED */
+
+.stack-area {
+    background: rgba(10, 12, 44, 1);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.bonus_blk {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #0C0F35;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 0;
+}
+
+.bonus_blk .bonus_top {
+    text-align: center;
+}
+
+.bonus_blk .bonus_top h2 {
+    color: #51AAFF;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.bonus_blk .bonus_top h2 span {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 34px;
+}
+
+.bonus_blk .bonus_top {
+    border-bottom: 1px solid #20255B;
+    padding-bottom: 20px;
+}
+
+.bonus_blk .bonus_top p {
+    margin: 0;
+    font-size: 14px;
+    color: #7175AA;
+}
+
+.bonus_blk>img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 120px;
+    position: relative;
+    top: -40px;
+}
+
+.bonus_blk .bonus_top a.theme-btn {
+    margin-top: 10px;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+ul.bonus_bottom {
+    margin-top: 10px;
+}
+
+ul.bonus_bottom li {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+ul.bonus_bottom li>i {
+    margin-right: 15px;
+    color: #616AD4;
+}
+
+ul.bonus_bottom li i {
+    color: #45A2F8;
+}
+
+ul.bonus_bottom li i.fas.fa-info-circle {
+    margin: 0;
+    margin-left: 10px;
+    color: #464A7E;
+}
+
+.bonus-blks {
+    position: relative;
+}
+
+.bonus-blks>img {
+    position: absolute;
+    right: -50px;
+    top: -40px;
+    z-index: 2;
+    animation: shaking 3s infinite;
+}
+
+
+/* Stack section END and Footer Section STARTED */
+
+footer {
+    padding: 30px 0;
+    padding-top: 40px;
+    position: relative;
+    background: #0C0F35;
+}
+
+footer>img {
+    position: absolute;
+    top: -70px;
+    left: 10%;
+    animation: shaking 3s infinite;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(113, 117, 170, 0.25);
+    padding-bottom: 30px;
+}
+
+.footer-logo img {
+    margin-right: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo a {
+    background: rgba(97, 106, 212, 0.25);
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #616AD4;
+}
+
+ul.footer_social {
+    display: flex;
+    align-items: center;
+}
+
+ul.footer_social li a {
+    margin-left: 10px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: rgba(97, 106, 212, 0.25);
+    border-radius: 150px;
+    color: #616AD4;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: .3s;
+}
+
+ul.footer_social li span {
+    margin-right: 20px;
+}
+
+ul.footer_social li a:hover {
+    background: #616AD4;
+    color: #fff;
+}
+
+.footer-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-down p {
+    color: #7175AA;
+    margin: 0;
+}
+
+.footer-down>div {
+    padding-right: 10px;
+}
+
+.footer-down p a {
+    color: #45A2F8;
+}
+
+
+/* Home page end and Howto Page started
+====================================== */
+
+.howto-area {
+    padding: 200px 0 140px 0;
+    background-image: url(../img/howto_backg.png);
+    background-size: cover;
+    position: relative;
+}
+
+.step {
+    width: 460px;
+    text-align: right;
+    margin-top: -150px;
+}
+
+.step.rightMode.onlyImg {
+    margin-top: -100px;
+}
+
+.step:first-child {
+    margin-top: 0;
+}
+
+.step img {
+    max-width: 100%;
+}
+
+.step_headings {
+    position: relative;
+}
+
+.step_headings h3 {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.step_headings h3 a {
+    display: block;
+    color: #50A4FF;
+    text-decoration: underline;
+}
+
+.step_headings img {
+    position: absolute;
+    left: 100px;
+    bottom: -15px;
+    max-width: 138px;
+}
+
+.step.rightMode {
+    text-align: left;
+    margin-left: auto;
+}
+
+.step.rightMode .step_headings img {
+    left: 220px;
+    bottom: 40px;
+}
+
+.all_steps {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0 100px 0;
+    margin-top: 50px;
+}
+
+.all_steps .prgLine {
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    background: white;
+    z-index: 2;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.all_steps:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #939AED;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.howto-area a.theme-btn {
+    width: max-content;
+    margin: auto;
+    margin-top: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: 55px;
+    border-radius: 5px;
+    background: #2dde32;
+    color: #000;
+    padding: 0 50px;
+}
+
+.howto-area img.ludoRock {
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    max-width: 90px;
+    animation: shaking 1s infinite;
+}
+
+.howto-area img.cardRight {
+    top: 16%;
+    right: 5%;
+    position: absolute;
+    max-width: 100px;
+    animation: shaking 1s infinite;
+}
+
+
+/*================= Page 3 Start ============*/
+
+main.page-3 .container {
+    max-width: 1550px;
+}
+
+
+/* Giveaway-area section STARTED */
+
+section.Giveaway-area {
+    padding: 150px 0 100px;
+    position: relative;
+    overflow: hidden;
+    /* background: url(../img/stack_backg.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img.stack_backg {
+    position: absolute;
+    z-index: -7;
+    bottom: -33%;
+    /* display: none; */
+    opacity: .3;
+    width: 105%;
+}
+
+section.Giveaway-area:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(359deg, rgba(12, 15, 53, 0) -180%, #0C0F35 -89.4%);
+    opacity: 0.8;
+}
+
+.Giveaway_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 80px;
+    position: relative;
+}
+
+.Giveaway_top .give_blk i {
+    /* max-width: 960px; */
+    height: 540px;
+}
+
+.Giveaway_top .give_blk {
+    text-align: center;
+    max-width: 960px;
+}
+
+.Giveaway_top .give_blk a {
+    font-size: 20px;
+    padding: 15px 85px;
+    bottom: 3px;
+}
+
+.gift_img img {
+    max-width: 80px;
+    position: absolute;
+    animation: shaking 1s infinite;
+}
+
+.gift-left {
+    left: 0%;
+    bottom: 30px;
+}
+
+.gift-right {
+    right: 0%;
+    transform: rotate(45deg);
+    top: 30%;
+}
+
+.give_blk {
+    position: relative;
+    max-width: 465px;
+    padding-bottom: 30px;
+}
+
+.give_blk a {
+    background: #616AD4;
+    border-radius: 31.5px;
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 60px;
+    width: max-content;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+
+.give_blk i {
+    display: block;
+    /* max-width: 465px; */
+    height: 260px;
+    width: 100%;
+    background: #0F123A;
+    border: 4px solid #939AED;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+}
+
+.give_blk i img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Giveaway_slider .owl-stage-outer {
+    padding: 30px 0;
+}
+
+.owl-dots {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.owl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #616AD4;
+    margin: 0 3px;
+}
+
+.owl-dot.active {
+    background: #fff;
+}
+
+
+/* Giveaway-area section END and price-area Section STARTED */
+
+.price-area {
+    background: #0A0C2C;
+    padding: 50px 0;
+}
+
+.price_row {
+    align-items: center;
+}
+
+.price_wrp {}
+
+.price_blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    margin: 60px 0;
+}
+
+.price_blk:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 95%;
+    height: 100px;
+    background: #0C0F35;
+    border-radius: 30px;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.price_blk a {
+    background: #616AD4;
+    border-radius: 19px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px 60px;
+    line-height: 30px;
+    transition: .3s;
+}
+
+.give_blk a:hover,
+.price_blk a:hover {
+    background: #fff;
+    color: #616AD4;
+}
+
+.price_blk i img {
+    width: 100%;
+}
+
+.price_blk h1 span {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    color: #ffff;
+}
+
+.price_blk h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.price_blk h5 span {
+    font-weight: 500;
+    display: block;
+}
+
+.price_blk h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.price_blk i {
+    max-width: 100px;
+}
+
+.price_right {
+    text-align: right;
+}
+
+.price_right a {
+    max-width: 101px;
+}
+
+.price_right a img {
+    object-fit: cover;
+    max-width: 125px;
+    /* width: 100%; */
+}
+
+i.diamond_roted {
+    transform: rotate(-25deg);
+}
+
+
+/* price-area section END */
+
+
+/*================= Page 3 End  and Challenges page STARTED ===============*/
+
+.cngl_blk {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.cngl_blk:hover {
+    transform: scale(1.05);
+}
+
+.cngl_content {
+    padding: 10px;
+    position: relative;
+}
+
+.cngl_content h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 5px;
+    line-height: 36px;
+    text-align: center;
+    color: #939AED;
+}
+
+.card_prices {
+    background: #0A0C2C;
+    border-radius: 26px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+}
+
+.card_prices.active {
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.card_prices.active .card_prices_wrp {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+
+.card_prices.active .info_wrp {
+    opacity: 1;
+    height: auto;
+    width: unset;
+}
+
+.info_wrp {
+    background: #0a0c2c;
+    bottom: 0;
+    color: #fff;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    width: 0;
+}
+
+.card_prices .info_wrp p {
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: unset !important;
+    width: 100%;
+    margin-bottom: 8px !important;
+}
+
+.card_prices .info_wrp a {
+    position: absolute;
+    color: #fddc69;
+    left: -6px;
+    top: -11px;
+    font-size: 25px;
+}
+
+.cngl_blk:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+    height: 60%;
+    width: 85%;
+    transform: translateX(-50%);
+    background: linear-gradient(180deg, #21255D 0%, rgba(33, 37, 93, 0) 100%);
+    border: 6px solid #21255D;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.cngl_content ul {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+.cngl_content button {
+    background: #616AD4;
+    box-shadow: inset 0px 1px 0px #7E87ED;
+    border-radius: 50px 10px 10px 50px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    margin: 0 3px;
+    min-width: 100px;
+    transition: unset;
+}
+
+.challenge-area {
+    background: url(../img/howto_backg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0 100px 0;
+    position: relative;
+}
+
+.pkg-row {
+    margin: 100px 0 100px;
+    position: relative;
+}
+
+.cngl_content ul li:last-child button {
+    border-radius: 10px 50px 50px 10px;
+}
+
+.card_prices p {
+    display: flex;
+    align-items: center;
+    width: 217px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.card_prices p span:first-child {
+    margin-right: 10px;
+}
+
+.card_prices p span:last-child {
+    margin-left: 15px;
+}
+
+.card_prices p i {
+    font-size: 30px;
+    margin-right: 10px;
+    width: 30px;
+    color: #939AED;
+}
+
+.card_prices p span {
+    display: flex;
+    align-items: center;
+}
+
+.card_prices p i.fas.fa-dollar-sign {
+    font-size: 40px;
+}
+
+.card_prices p span:last-child b {
+    margin-left: 5px;
+    color: #939AED;
+}
+
+.card_prices p:last-child {
+    margin-bottom: 0;
+}
+
+.winnerBlk {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    position: relative;
+    padding: 5px 30px;
+    background: #21255D;
+    border-radius: 30px;
+    justify-content: space-between;
+    padding-right: 0;
+}
+
+.monthly-wins {
+    background: #0A0C2C;
+    padding: 100px 0 150px 0;
+}
+
+.winnerBlk img.fimg {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.winnerBlk p {
+    margin: 0;
+    margin-right: 10px;
+    letter-spacing: 0.26em;
+    font-weight: 700;
+    color: #C5CAFF;
+}
+
+.winnerBlk p.first {
+    letter-spacing: 0em;
+    font-weight: 100;
+    color: #fff;
+}
+
+.winnerBlk p.first {
+    font-weight: 700;
+}
+
+.winnerBlk button {
+    background: #4D51C3;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.26em;
+    color: #C5CAFF;
+    padding: 14px 27px;
+}
+
+.winnerBlk a.theme-btn.withArrow {
+    margin-right: -65px;
+    font-size: 14px;
+}
+
+.challenge-area img.trophy {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    animation: shaking 1s infinite;
+    display: none;
+}
+
+.competions .cngl_content h4,
+.competions .card_prices p i,
+.competions .card_prices p span:last-child b {
+    color: #FDDC69;
+}
+
+.competions .cngl_content button {
+    background: #FDDC69;
+    color: #0A0C2C;
+}
+
+.competions .cngl_content button:hover {
+    color: white;
+    background: #2dde32;
+}
+
+
+/*================= Page 3 End  and Challenges Spor page STARTED ===============*/
+
+body.sports .container {
+    max-width: 1400px;
+}
+
+body.sports .header-area .container {
+    max-width: 1650px;
+}
+
+.packge_blk {
+    margin: auto;
+    padding: 20px;
+    border-radius: 34px;
+    position: relative;
+    z-index: 19;
+    background-image: url(../img/bg-pkg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+
+.pkg-1 {
+    color: #716EE3;
+}
+
+.pkg-1 h2 {
+    color: #716EE3;
+}
+
+.pkg-3 {
+    background-image: url(../img/bg-pkg3.png);
+    color: #A65F4F;
+}
+
+.pkg-3 svg path {
+    fill: #A65F4F;
+}
+
+.pkg-3 h2 {
+    color: #A65F4F;
+}
+
+.pkg-2 {
+    background-image: url(../img/bg-pkg2.png);
+    color: #FFCC54 !important;
+}
+
+.pkg-2 h2 {
+    color: #FFCC54 !important;
+}
+
+.pkg-2 svg path {
+    fill: #FFCC54 !important;
+}
+
+.packge_blk>i {}
+
+.packge_blk:before {
+    content: "";
+}
+
+.packge_blk>i {
+    display: block;
+    text-align: center;
+    min-height: 170px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.packge_blk>i img {
+    width: max-content !important;
+    margin: auto;
+}
+
+.packge_blk h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.packge_blk_cont {
+    max-width: 300px;
+    background: #0A0C2C;
+    border-radius: 26px;
+    padding: 20px;
+    margin: auto;
+}
+
+.packge_blk_cont ul li p {
+    margin-bottom: 0;
+}
+
+.packge_blk_cont ul li p i {
+    margin-right: 4px;
+    display: inline-block;
+    transform: translateY(-2px);
+}
+
+.packge_blk_cont button {
+    background: #1C2052;
+    border-radius: 50px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 10px 20px;
+    transform: translateY(-30px);
+    color: #616AD4;
+    margin-bottom: -15px;
+}
+
+.packge_blk_cont ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.packge_blk_cont ul li:nth-child(2) svg path {
+    stroke: unset;
+}
+
+.packge_blk_cont ul li p span {}
+
+.packge_blk_cont ul li span {
+    font-weight: 700;
+}
+
+.sports_btn {
+    max-width: 620px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.img_position {}
+
+.img_position img {
+    position: absolute;
+    animation: shaking 1s infinite;
+}
+
+img.coin_4 {
+    right: -10%;
+    top: 250px;
+}
+
+img.coins_3 {
+    left: -10%;
+    top: 230px;
+}
+
+img.coins_2 {
+    right: -43%;
+    top: -197px;
+}
+
+img.coins_1 {
+    left: -20%;
+    top: -125px;
+}
+
+.sports_btn a p {
+    margin-bottom: 0;
+}
+
+.sports_btn a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 700;
+    background: #616AD4;
+    height: 65px;
+    border-radius: 7px;
+    position: relative;
+    z-index: 2;
+}
+
+a.slot_btn:hover .arrow {
+    right: -70px;
+}
+
+a.slot_btn:hover .arrow .right_2 {
+    opacity: 1;
+    margin-right: 3px;
+}
+
+.arrow {}
+
+.sports_btn a .arrow {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(97 106 212 / 50%);
+    position: absolute;
+    z-index: -1;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: #616AD4;
+    transition: all .3s ease-in-out;
+}
+
+.sports_btn a span {
+    width: 80px;
+    display: inline-block;
+    height: 100%;
+}
+
+.sports_btn a span img {
+    right: -20px;
+}
+
+.sports_btn a span img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.football_btn p {
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+
+.football_btn {}
+
+a.football_btn .arrow {
+    left: -50px;
+}
+
+a.football_btn:hover .arrow {
+    left: -70px;
+}
+
+a.football_btn:hover .arrow .left_2 {
+    opacity: 1;
+    margin-left: 2px;
+}
+
+.arrow .left_2,
+.arrow .right_2 {
+    opacity: 0;
+    font-size: 28px;
+    transition: all .3s ease-in-out;
+}
+
+i.fal.fa-chevron-right.right_2 {
+    margin-right: 10px;
+}
+
+i.fal.fa-chevron-left.left_2 {
+    margin-left: 10px;
+}
+
+.slot_btn {}
+
+a.slot_btn p {
+    padding-right: 25px;
+}
+
+a.slot_btn .arrow {
+    right: -50px;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.slot_btn span img {
+    left: -15px;
+}
+
+.bg_border {
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(33, 37, 93, 0.5) 0%, rgba(33, 37, 93, 0.1) 86.98%);
+    border: 5px solid #21255D;
+}
+
+.bg_border:after {
+    content: "";
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    left: 0;
+    top: -10px;
+    border-radius: 35px;
+    z-index: -2;
+}
+
+.sports_wrp .winnerBlk {
+    padding-left: 10px;
+    position: relative;
+    margin-left: -50px;
+}
+
+.sports_wrp .winnerBlk p {
+    font-size: 15px;
+}
+
+.sports_wrp .winnerBlk p.first {
+    margin-left: -30px;
+    font-weight: 400;
+}
+
+.sports_wrp .winnerBlk p i {
+    display: inline-block;
+    font-style: normal;
+    margin: 0 5px;
+    font-weight: 700;
+}
+
+.sports_wrp .winnerBlk button {
+    font-size: 18px;
+    
+    color: #fff;
+padding: 0;max-width: 182px;width: 100%;height: 55px;}
+
+.sports_wrp {}
+
+.sports_wrp .winnerBlk img.fimg {
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.sports_wrp .winnerBlk>i {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.pkg_slider .owl-item.active.center {
+    transform: translateY(-60px);
+}
+
+.pkg_slider.owl-carousel.owl-loaded.owl-drag .owl-stage-outer {
+    padding-top: 65px;
+}
+
+body.Slots .pkg-1 {background-image: url(../img/bg-pkg-slt.png);}
+
+body.Slots .pkg-2 {background-image: url(../img/bg-pkg2-slt.png);}
+
+body.Slots .packge_blk {max-width: 330px;}
+
+body.Slots .pkg-3 {background-image: url(../img/bg-pkg3-slt.png);}
+
+body.Slots .packge_blk > i {display: block;border-radius: 15px;overflow: hidden;width: max-content;}
+
+body.Slots .packge_blk .packge_blk_cont {width: 100%;margin-bottom: 0px;}
+
+
+/*================= Page 3 End  and Challenges page STARTED ===============*/
+
+
+/*================= Page 3 End  and Challenges page STARTED ===============*/
