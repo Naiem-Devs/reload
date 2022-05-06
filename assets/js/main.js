@@ -56,32 +56,6 @@
         }
     });
 
-    // owlCarousel
-    $(".pkg_slider").owlCarousel({
-        loop: true,
-        margin: 30,
-        items: 3,
-        smartSpeed: 700,
-        center: true,
-        nav: false,
-        dots: true,
-        stagePadding: 0,
-        responsive: {
-            0: {
-                items: 1,
-                margin: 0,
-            },
-            767: {
-                items: 1
-            },
-            992: {
-                items: 1
-            },
-            1200: {
-                items: 3
-            }
-        }
-    });
 
     // hover
     function HoverSection() {

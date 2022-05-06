@@ -226,7 +226,7 @@ a.theme-btn img {
     transition: .3s;
     margin-left: -400px;
     padding: 30px;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
 .siteBar {
@@ -259,11 +259,11 @@ a.mbl_logo {
     top: 15px;
     width: 40px;
     height: 40px;
-    background: red;
+    
     text-align: center;
     line-height: 36px;
     border-radius: 50%;
-    font-size: 26px;
+    font-size: 35px;
     color: #fff;
     box-shadow: 0px 0px 17px -2px #0000004a;
 }
@@ -1192,6 +1192,8 @@ i.diamond_roted {
     position: relative;
 }
 
+.pkg_slider {display: flex;}
+
 .pkg-row {
     margin: 100px 0 100px;
     position: relative;
@@ -1373,7 +1375,7 @@ body.sports .header-area .container {
 .pkg-2 {
     background-image: url(../img/bg-pkg2.png);
     color: #FFCC54 !important;
-}
+margin-top: -60px;margin-left: 10px;margin-right: 10px;}
 
 .pkg-2 h2 {
     color: #FFCC54 !important;
@@ -1465,7 +1467,7 @@ body.sports .header-area .container {
     align-items: center;
     justify-content: space-between;
     position: relative;
-}
+margin-bottom: 50px;}
 
 .img_position {}
 
@@ -1635,12 +1637,22 @@ a.slot_btn .arrow {
 
 .sports_wrp .winnerBlk p {
     font-size: 15px;
-}
+width: 100px;margin-right: 0;}
+
+.sports_wrp .winnerBlk p {}
+
+.sports_wrp .winnerBlk p:nth-child(4) {width: 120px;}
+
+.sports_wrp .winnerBlk p:nth-child(3) {width: 130px;}
+
+.sports_wrp .winnerBlk p:nth-child(5) {width: 65px;}
+
+.Slots .sports_wrp .winnerBlk p:nth-child(5) {width: 100px;}
 
 .sports_wrp .winnerBlk p.first {
     margin-left: -30px;
     font-weight: 400;
-}
+width: 250px;}
 
 .sports_wrp .winnerBlk p i {
     display: inline-block;
@@ -1658,15 +1670,15 @@ padding: 0;max-width: 182px;width: 100%;height: 55px;}
 .sports_wrp {}
 
 .sports_wrp .winnerBlk img.fimg {
-    width: max-content;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-}
+max-width: 50px;max-height: 80px;min-height: max-content;object-fit: cover;}
 
 .sports_wrp .winnerBlk>i {
-    width: 60px;
+    width: 50px;
     height: 60px;
     display: block;
 }
@@ -1683,13 +1695,13 @@ body.Slots .pkg-1 {background-image: url(../img/bg-pkg-slt.png);}
 
 body.Slots .pkg-2 {background-image: url(../img/bg-pkg2-slt.png);}
 
-body.Slots .packge_blk {max-width: 330px;}
+body.Slots .packge_blk {max-width: 336px;background-size:;}
 
 body.Slots .pkg-3 {background-image: url(../img/bg-pkg3-slt.png);}
 
 body.Slots .packge_blk > i {display: block;border-radius: 15px;overflow: hidden;width: max-content;}
 
-body.Slots .packge_blk .packge_blk_cont {width: 100%;margin-bottom: 0px;}
+body.Slots .packge_blk .packge_blk_cont {width: 280px;margin-bottom: 0px;}
 
 
 /*================= Page 3 End  and Challenges page STARTED ===============*/

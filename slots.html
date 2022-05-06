@@ -131,7 +131,7 @@
                         <img src="assets/img/coin_4.png" class="coin_4" alt="">
                     </div>
                     <div class="col-lg-12">
-                        <div class="pkg_slider owl-carousel">
+                        <div class="pkg_slider ">
                             <div class="packge_blk pkg-1 " data-aos="fade-up">
                                 <i>
                                     <img src="assets/img/Slot-1.png" alt="">
@@ -530,6 +530,47 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            function GettingDatas() {
+                axios.get('https://indev.octonya.fr/highslotswin')
+                    .then(function(response) {
+                        let allData = response.data.data;
+                        if (allData.length > 0) {
+                            console.log(allData.length)
+                            let mainDiv = document.querySelector('.winners_wrp')
+                            allData.forEach(data => {
+                                let date = new Date(data.createdAt);
+                                let MkDiv = document.createElement('DIV');
+                                MkDiv.classList.add('winnerBlk')
+                                MkDiv.classList.add('mt-4')
+                                MkDiv.setAttribute('data-aos', "fade-up")
+                                MkDiv.innerHTML = `  
+                                <i><img src="https://dev.stakereloads.com/assets/img/slots/${data.iconName}" class="fimg" alt=""></i>
+                                <p class="first">${data.slotName}</p>
+                                <p>${date.getDay()}/${date.getMonth()}/${date.getFullYear()}</p>
+                                <p>$<span style="color: #fff;">${data.bet.replace('$',"")}</span></p>
+                                <p>${data.multiplier}</p>
+                                <button type="button">${data.amount}</button>
+                                <a href="#${data.createdAt}" class="theme-btn withArrow" >
+                                    <div>Bet ID</div> <span><i class="fal fa-angle-right"></i></span>
+                                </a> 
+                            `
+                                mainDiv.appendChild(MkDiv)
+                            });
+                        }
+                    })
+                    .catch(function(error) {
+                        // handle error
+                        console.log(error);
+                    })
+            }
+            setTimeout(() => {
+                GettingDatas()
+            }, 10000);
+        })
+    </script>
 </body>
 
 </html>
